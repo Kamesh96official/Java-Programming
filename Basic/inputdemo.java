@@ -19,7 +19,7 @@ public class inputdemo{
         int rating= sc.nextInt();  // Here we are getting the input as number so using "sc.nextInt"
 
         sc.nextLine();  /*Here why we are using this means in the above code we have taken the input as number, so after a number when we press "Enter" it will take that 
-        "Enter" also a character it is said as next line character, so at the next line if we try to give scan the mail it will take the input as "Enter" thats the reason 
+        "Enter" also a character it is said as "next line character", so at the next line if we try to give scan the mail it will take the input as "Enter" thats the reason 
         we cant give the email as input, using this command we can now provide the input as mail.*/
 
         System.out.println("This is ur rating " + rating);
