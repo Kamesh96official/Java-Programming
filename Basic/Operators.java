@@ -1,4 +1,4 @@
-import java.net.SocketPermission;
+import java.util.Scanner; 
 
 /************************ Arithmetic Operator ****************/
 
@@ -55,6 +55,57 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
         r=++p;  //But here "pre increment" so done the increment and displays the value.
         System.out.println("Q is "+q);
         System.out.println("R is "+ r);
+
+
+/******** Practise - Getting 2 inputs from user and perform arithmetic operators.  ***************** */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the valu of A:");
+        int z=sc.nextInt();
+
+        System.out.println("Enter the value B:");
+        int y=sc.nextInt();
+
+        int x = z+y;
+        int w = y-z;
+        int v= z*y;
+        float u= (float)z/y;
+        int s =z%y;
+
+        System.out.println(x);
+        System.out.println(w);
+        System.out.println(v);
+        System.out.println(u);
+        System.out.println(s);
+
+        
+       System.out.println("The value of a is what : " +a);
+
+       a = a+100;
+       System.out.println("Now the value of a is :" +a);
+
+       a= a+100;
+
+       System.out.println("Now the value of a is : "+ a) ;
+
+       
+
+       float k =1;
+        System.out.println("The value of k is:" +k);
+
+
+       k/= 5;
+
+       System.out.println("Now the value of k is :"+ k);
+
+
+       int A=3,B=4,C;
+       C=A+B + A++ + B++ + ++A + ++B;
+
+       System.out.println(C);
+
+      
+
 
     }
 }

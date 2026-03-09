@@ -7,7 +7,7 @@ public class ProjectPrintPyramid {
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
 
-        System.out.println("      " + num);
+        System.out.println("      "+ num);
         System.out.println("     " + num + " " + num);
         System.out.println("    " + num + " " + num + " " + num);
         System.out.println("   " + num + " " + num + " " + num + " " + num);
