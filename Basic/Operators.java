@@ -78,6 +78,7 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
         System.out.println(u);
         System.out.println(s);
 
+/************** Add 100  to a number using compound  assignment ******/
         
        System.out.println("The value of a is what : " +a);
 
@@ -98,11 +99,14 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
 
        System.out.println("Now the value of k is :"+ k);
 
-
+ /******** Justify the output *********************/      
        int A=3,B=4,C;
        C=A+B + A++ + B++ + ++A + ++B;
 
        System.out.println(C);
+       System.out.println(A);
+       System.out.println(B);
+
 
       
 
