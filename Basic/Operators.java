@@ -108,6 +108,31 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
        System.out.println(B);
 
 
+
+/***************** Relational Operators (Comparing and say true or false) (<,<=,>,>=, ==, !=) ************/
+
+        int D= 10, E=40;
+        System.out.println(D>E);
+
+        System.out.println(D<E);
+
+        int F=40,G=40;
+        System.out.println(F>=G);
+
+        System.out.println(F<=G);
+
+        System.out.println(G==E);
+
+        System.out.println(D!=F);
+
+        System.out.println(D>100);
+
+
+/********* Bitwise Operators ****************/
+
+
+
+
       
 
 
