@@ -128,7 +128,42 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
         System.out.println(D>100);
 
 
-/********* Bitwise Operators ****************/
+/********* Bitwise Operators (Usage to encrypt and decrypt like messages encryption in whatsapp. 
+ 
+                ~NOT     << left shift
+                & AND    >> righr shift
+                | OR     >>> right shift zero fill
+                ^EXOR                             ****************/
+
+        int H=9, I=12;
+        int J= H&I;  //(AND Operator)
+        System.out.println("H&I  is "+J);
+
+         J= H|I;     //(OR Operator)
+        System.out.println("H|I is "+J);
+
+        J= ~H;     //(NOT Operator)
+        System.out.println("~H is "+J);  // For this the output will comes like minus (-). To check the minus we can use 2's Complement.
+
+        //<< left shift.
+
+        int a1=4;
+        System.out.println(a1<<1); //Left shifting  (0000 0100) So here the 1 is left shited one time and got that 1 postion number as 8, So 4 to 8 which is multiple by 2.
+
+        int a2=4;
+        System.out.println(a2<<5); //(0100 0000 ) Here the one is left shifted five time and got that 1 position as 128.
+
+        byte a3=4;
+        System.out.println(a3<<28); //If we use arithmetic or logical or bitwise operators the byte & short will promote as int. 
+
+        byte a4 =4;
+        System.out.println((byte)(a4<<28));  //Here if we need as byte only we can typelscast it, so now displaying zero.
+
+
+       
+
+        
+
 
 
 
