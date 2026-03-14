@@ -160,16 +160,64 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
         System.out.println((byte)(a4<<28));  //Here if we need as byte only we can typelscast it, so now displaying zero.
 
 
-       
+        int a5=-5;
 
-        
+        System.out.println("Right shift " +(a5>>1));
+        System.out.println("Right shift with zero fill"+ (a5>>>1));
+
+        //Boolean Operators
+
+        boolean a6=true,b1=false; //1=true, 0=false
+        System.out.println(a6&b1);
+
+
+/************************ SHORT CIRCUIT LOGICAL OPERATORS
+                                && || ************/
+
+        int a7=20;
+        System.out.println((a7>22)& (a7<30)); //Here it will check the both sided values
+
+        System.out.println((a7>22)&&(a7<30));  //Here it will leck only one sided values and give the output.
+
+        int a8=22;
+        System.out.println((a8>25) | (a8<30));
+        System.out.println((a8>25) || (a8<30));
+
+        /******************** OPERATOR PRECEDENCE *********************/
+
+        int a9=10,a10=20;
+        double b2= a9*a10-10/a9; /*  These combined is said to be as expression (Here it will first do multiplication & division
+        then only it will do the substration like a priority)  */
+        double b3= (a9*a10-10)/a9; // If we need to change the priority we can mention inside perantasis.
+        System.out.println(b2);
+        System.out.println(b3);
+
+        /*  Practise  */
+
+        int a11= 10;
+
+        a11= a11++ + ++a11; /*  Here first it displays the value then add ++ and the other side it will first add and store it
+                                a11=10 -- a11++(11) + ++a11(12)
+                                Output = Post decrement (10)+12 = 22 */
+        System.out.println(a11);
+
+        int a12=10;
+        a12= ++a12 + ++a12;         /*  a12=10 -- (11)++a12 + (12)++a12
+                                Output = Pre decrement (10)+(12) =    */
+        System.out.println(a12);
+
+      /*   int a13= 11++;               Here we can directly assign constant as directly 
+                                        if we do it will create a error (interview question)
+        System.out.println(a13);     */
+
+        int a14=5;                     // 5= 0101 & 1=0001 = (AND Operator (&)) So output will be "1" 
+        System.out.println(a14 & 1);            
+
+        int a15 =5;
+        System.out.println((a15^3)^a15);   //5(0101) ^ 3(0011) = (6)0110 ^ 5(0101) = (3)0011 > The O/P: 3 
 
 
 
 
-
-      
-
-
-    }
+ }
 }
