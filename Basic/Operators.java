@@ -143,7 +143,7 @@ System.out.println("Below Doing COMPOUND ASSIGNMENTS");
         System.out.println("H|I is "+J);
 
         J= ~H;     //(NOT Operator)
-        System.out.println("~H is "+J);  // For this the output will comes like minus (-). To check the minus we can use 2's Complement.
+        System.out.println("H is "+J);  // For this the output will comes like minus (-). To check the minus we can use 2's Complement.
 
         //<< left shift.
 
