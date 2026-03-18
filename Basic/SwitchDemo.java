@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+//Switch statement, if else statement  --> Selection statements.
+
 public class SwitchDemo{
     public static void main (String args[]){
         int a,b;
@@ -34,6 +37,9 @@ public class SwitchDemo{
         
         
             }
+
+
+            
 
 
 
